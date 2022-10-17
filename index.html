@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Um conversor de temperatura de F° e C° com 
+    manipulação do DOM ">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Corversor de Temperatura °C - °F</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Temperatura: <input class="temp" type="number" id="temp"></p>
+            <p>Converter para: <input type="radio" id="c" name="tipo" checked>
+            <label>°C</label>
+            <input type="radio" id="f" name="tipo">
+            <label>°F</label>
+            </p>
+            <p><button value="converter" onclick="conversor()">Converter</button></p>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Desenvolvido por  Alessandra Romualdo <a href="https://www.linkedin.com/in/alessandra-romualdo-07782b1b7/" target="_blank"><img src="icone.png" alt="icone linkedin" ></a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
